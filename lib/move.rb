@@ -13,6 +13,6 @@ def input_to_index(input)
 end
 
 def move (board, index, value = "X")
-  binding.pry
+  #binding.pry
   board[index] = value
 end
